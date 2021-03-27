@@ -1,342 +1,460 @@
 @font-face {
-  font-family: OldeEnglish;
-  src: url(fonts/OldeEnglish.ttf);
+    font-family: 'nyt-imperial';
+    src: url('https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
 }
+
 @font-face {
-  font-family: franklin-normal-700;
-  src: url(fonts/franklin-normal-700.ttf);
+    font-family: OldeEnglish;
+    src: url(fonts/OldeEnglish.ttf);
 }
+
 @font-face {
-  font-family: cheltenham-italic-700;
-  src: url(fonts/cheltenham-italic-700.ttf);
+    font-family: franklin-normal-700;
+    src: url(fonts/franklin-normal-700.ttf);
 }
+
 @font-face {
-  font-family: franklin-normal-500;
-  src: url(fonts/franklin-normal-500.ttf);
+    font-family: cheltenham-italic-700;
+    src: url(fonts/cheltenham-italic-700.ttf);
 }
+
 @font-face {
-  font-family: imperial-italic-500;
-  src: url(fonts/imperial-italic-500.ttf);
+    font-family: franklin-normal-500;
+    src: url(fonts/franklin-normal-500.ttf);
 }
+
 @font-face {
-  font-family: CenturyOldStyleStdRegular;
-  src: url(fonts/CenturyOldStyleStdRegular.otf);
+    font-family: imperial-italic-500;
+    src: url(fonts/imperial-italic-500.ttf);
 }
+
 @font-face {
-  font-family: imperial-normal-700;
-  src: url(fonts/imperial-normal-700.ttf);
+    font-family: CenturyOldStyleStdRegular;
+    src: url(fonts/CenturyOldStyleStdRegular.otf);
 }
+
 @font-face {
-  font-family: cheltenham-normal-700;
-  src: url(fonts/cheltenham-normal-700.ttf);
+    font-family: imperial-normal-700;
+    src: url(fonts/imperial-normal-700.ttf);
 }
+
 @font-face {
-  font-family: cheltenham-normal-400;
-  src: url(fonts/cheltenham-normal-400.ttf);
+    font-family: cheltenham-normal-700;
+    src: url(fonts/cheltenham-normal-700.ttf);
 }
+
 @font-face {
-  font-family: franklin-normal-300;
-  src: url(fonts/franklin-normal-300.ttf);
+    font-family: cheltenham-normal-400;
+    src: url(fonts/cheltenham-normal-400.ttf);
+}
+
+@font-face {
+    font-family: franklin-normal-300;
+    src: url(fonts/franklin-normal-300.ttf);
+}
+
+@font-face {
+    font-family: franklin-normal-600;
+    src: url(fonts/franklin-normal-600.ttf);
+}
+
+@font-face {
+    font-family: cheltenham-normal-500;
+    src: url(fonts/cheltenham-normal-500.ttf);
 }
 
 body {
-  font-size: 1.1rem;
-  line-height: 1.6em;
+    font-size: 1.1rem;
+    line-height: 1.6em;
 }
+
 .title-container h1 {
-  font-family: OldeEnglish;
-  margin-bottom: 20px;
-  font-size: 29px;
-  line-height: 16px;
-  cursor: pointer;
+    font-family: OldeEnglish;
+    margin-bottom: 20px;
+    font-size: 29px;
+    line-height: 16px;
+    cursor: pointer;
 }
+
 .title-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 41px;
-  border: solid #ebebeb 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 41px;
+    border: solid #ebebeb 1px;
 }
+
 .navbar ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  margin-top: 12px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 12px;
 }
+
 .navbar ul li {
-  display: inline-block;
-  padding-left: 18px;
-  margin-bottom: 15px;
-  font-family: franklin-normal-700;
-  font-size: 14px;
-  letter-spacing: 0.07em;
-  cursor: pointer;
+    display: inline-block;
+    padding-left: 18px;
+    margin-bottom: 15px;
+    font-family: franklin-normal-700;
+    font-size: 14px;
+    letter-spacing: 0.07em;
+    cursor: pointer;
 }
+
 .navbar ul li:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
+
 .buttons {
-  margin-right: 25px;
+    margin-right: 25px;
 }
+
 .button {
-  padding: 8px 15px;
-  padding-top: 11px;
-  cursor: pointer;
-  outline: none;
-  background-color: rgb(86, 123, 149);
-  line-height: 11px;
-  color: white;
-  font-weight: 10px;
-  transition: all 0.4s linear;
-  border: solid rgb(50, 104, 145) 1px;
-  border-radius: 3px;
-  font-family: franklin-normal-700;
-  font-size: 11px;
-  margin-bottom: 4px;
+    padding: 8px 15px;
+    padding-top: 11px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(86, 123, 149);
+    line-height: 11px;
+    color: white;
+    font-weight: 10px;
+    transition: all 0.4s linear;
+    border: solid rgb(50, 104, 145) 1px;
+    border-radius: 3px;
+    font-family: franklin-normal-700;
+    font-size: 11px;
+    margin-bottom: 4px;
 }
+
 .button:hover {
-  background-color: #326891;
+    background-color: #326891;
 }
+
 .fix {
-  background: white;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
+    background: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .content {
-  text-align: left;
-  margin: auto;
-  padding-top: 4.1rem;
-  width: 100%;
-  max-width: 100%;
+    text-align: left;
+    margin: auto;
+    padding-top: 4.1rem;
+    width: 100%;
+    max-width: 100%;
 }
+
 .main-title {
-  font-family: cheltenham-italic-700;
-  font-size: 20px;
-  line-height: 48px;
-  width: 40%;
-  height: 116px;
-  margin: auto auto;
-  border-bottom: solid #ebebeb 1px;
-  text-align: left;
+    font-family: cheltenham-italic-700;
+    font-size: 20px;
+    line-height: 48px;
+    width: 40%;
+    height: 116px;
+    margin: auto auto;
+    border-bottom: solid #ebebeb 1px;
+    text-align: left;
 }
+
 .main-list {
-  height: fit-content;
-  margin: auto 27%;
-  width: fit-content;
+    height: fit-content;
+    margin: auto 27%;
+    width: fit-content;
 }
+
 .main-list ul {
-  list-style: none;
+    list-style: none;
 }
+
 .main-list li {
-  display: inline;
+    display: inline;
 }
+
 .img-container {
-  max-width: 100%;
-  text-align: center;
+    max-width: 100%;
+    text-align: center;
 }
+
 .img-container img {
-  margin: auto auto;
-  max-width: 77%;
-  height: auto;
-  cursor: pointer;
+    margin: auto auto;
+    max-width: 77%;
+    height: auto;
+    cursor: pointer;
 }
+
 .img-text-container {
-  margin: auto auto;
-  max-width: 70%;
-  text-align: left;
+    margin: auto auto;
+    max-width: 70%;
+    text-align: left;
 }
+
 .img-text-container p {
-  margin: 0px 0px 0px -5%;
-  font-family: imperial-italic-500;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
-  color: #666666;
-  width: fit-content;
-  max-width: 77%;
+    margin: 0px 0px 0px -5%;
+    font-family: imperial-italic-500;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    color: #666666;
+    width: fit-content;
+    max-width: 77%;
 }
+
 .img-text-container span {
-  font-family: imperial-italic-500;
-  font-size: 13px;
-  color: #888888;
+    font-family: imperial-italic-500;
+    font-size: 13px;
+    color: #888888;
 }
 
 .main-text-container {
-  margin: 2.5% auto auto auto;
-  width: 60%;
-  max-width: 605px;
+    margin: 2.5% auto auto auto;
+    width: 60%;
+    max-width: 625px;
 }
 
 .subtitle-container {
-  border-bottom: solid 1px #cccccc;
-  height: 102px;
+    border-bottom: solid 1px #cccccc;
+    height: 102px;
 }
+
 .author-text-container {
-  font-family: franklin-normal-700;
-  color: #333333;
-  font-size: 15px;
+    font-family: franklin-normal-700;
+    color: #333333;
+    font-size: 15px;
 }
+
 .author-text-container p span {
-  line-height: 16px;
-  cursor: pointer;
-  text-decoration: underline #cccccc;
+    line-height: 16px;
+    cursor: pointer;
+    text-decoration: underline #cccccc;
 }
+
 .author-text-container p span:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
+
 .date-text-container {
-  margin-top: -0.8em;
-  font-family: franklin-normal-500;
-  font-size: 13px;
-  color: #333333;
+    margin-top: -0.8em;
+    font-family: franklin-normal-500;
+    font-size: 13px;
+    color: #333333;
 }
 
 .signup-container {
-  margin-top: -5px;
-  display: inline-flex;
-  align-items: initial;
+    margin-top: -5px;
+    display: inline-flex;
+    align-items: initial;
 }
+
 .signup-container p {
-  font-family: franklin-normal-700;
-  font-size: 14px;
-  color: #333333;
-  width: 515px;
+    font-family: franklin-normal-700;
+    font-size: 14px;
+    color: #333333;
+    width: 515px;
 }
+
 .signup-container span {
-  font-family: imperial-italic-500;
-  font-size: 17px;
+    font-family: imperial-italic-500;
+    font-size: 17px;
 }
+
 .signup-container button {
-  margin-top: 3%;
-  font-family: franklin-normal-700;
-  font-size: 15px;
-  width: 80px;
-  height: 35px;
-  background: none;
-  outline: none;
-  border: 1px solid black;
-  transition: all 0.4s;
+    margin-top: 3%;
+    font-family: franklin-normal-700;
+    font-size: 15px;
+    width: 80px;
+    height: 35px;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    transition: all 0.4s;
 }
+
 .signup-container button:hover {
-  color: white;
-  background: black;
+    color: white;
+    background: black;
 }
 
 .text-par {
-  color: #333333;
-  font-size: 20px;
-  line-height: 30px;
-  font-family: CenturyOldStyleStdRegular;
-  letter-spacing: 0.1mm;
+    color: #333333;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    letter-spacing: 0.1mm;
 }
 
 .greet-text-container {
-  margin: 45px auto 45px auto;
-  text-align: center;
-  font-family: franklin-normal-700;
-  font-size: 15px;
-  line-height: 19px;
-  color: #333;
+    margin: 45px auto 45px auto;
+    text-align: center;
+    font-family: franklin-normal-700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #333;
 }
+
 .greet-text-container a {
-  text-decoration: none;
-  color: #326891;
+    text-decoration: none;
+    color: #326891;
 }
+
 .black {
-  padding-top: 20px;
-  border-top: solid 1px #cccccc;
+    padding-top: 20px;
+    border-top: solid 1px #cccccc;
 }
+
 .blue {
-  padding-bottom: 20px;
-  border-bottom: solid 1px #cccccc;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #cccccc;
 }
 
 .text-par-two p {
-  font-family: CenturyOldStyleStdRegular;
-  font-size: 20px;
-  line-height: 30px;
-  color: #333333;
-  letter-spacing: 0.1mm;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    letter-spacing: 0.1mm;
 }
+
 .text-par-two a {
-  color: #326891;
+    color: #326891;
 }
+
 .subtitle {
-  font-family: imperial-normal-700;
-  color: #333333;
-  font-size: 20px;
+    font-family: imperial-normal-700;
+    color: #333333;
+    font-size: 20px;
 }
 
 .text-par-three {
-  font-family: CenturyOldStyleStdRegular;
-  font-size: 20px;
-  line-height: 30px;
-  color: #333333;
-  letter-spacing: 0.1mm;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+    letter-spacing: 0.1mm;
 }
+
 .text-par-three a {
-  color: #326891;
+    color: #326891;
 }
 
 .video-container {
-  width="600"
-            height="315";
-            src="https://www.youtube.com/embed/ZlfIVEy_YOA";
-            title="YouTube video player";
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture";
-            allowfullscreen;
-  margin-top: 40px;
+    margin-top: 40px;
+    border: none;
 }
+
 .video-container p {
-  margin-top: 0px;
-  max-width: 500px;
-  font-size: 15px;
-  font-family: CenturyOldStyleStdRegular;
-  color: #666666;
-  line-height: 20px;
-  letter-spacing: 0.1mm;
+    margin-top: 0px;
+    max-width: 500px;
+    font-size: 15px;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    color: #666666;
+    line-height: 20px;
+    letter-spacing: 0.1mm;
 }
+
 .video-container span {
-  font-size: 13px;
-  font-family: CenturyOldStyleStdRegular;
-  color: #888;
-  line-height: 18px; 
+    font-size: 13px;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    color: #888;
+    line-height: 18px;
 }
 
 .sub-one {
-  font-family: imperial-normal-700;
-  font-size: 20px;
-  line-height: 30px;
-  color: #333333;
+    font-family: imperial-normal-700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
 }
 
-.img-container-two{
-  margin-top: 40px;
-  text-align: center;
+.img-container-two {
+    margin-top: 40px;
+    text-align: center;
 }
+
 .img-container-two img {
-  width: 100%;
-  max-width: 725px;
+    width: 100%;
+    max-width: 725px;
 }
-.img-text-two{
-  margin: auto;
-  text-align: left;
-  width: 100%;
-  max-width: 700px;
+
+.img-text-two {
+    margin: auto;
+    text-align: left;
+    width: 100%;
+    max-width: 700px;
 }
+
 .img-text-two p {
-  font-family: CenturyOldStyleStdRegular;
-  color: #666666;
-  font-size: 15px;
-  line-height: 20px;
-  margin-top: 2px;
-  margin-left: -2%;
-  letter-spacing: 0.1mm;
+    font-family: 'nyt-imperial';
+    font-weight: 400;
+    color: #666666;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 2px;
+    margin-left: -2%;
+    letter-spacing: 0.1mm;
 }
+
 .img-text-two span {
-  font-size: 13px;
-  color: #888888;
+    font-size: 13px;
+    color: #888888;
+}
+
+.footer-text {
+    width: 600px;
+    font-family: franklin-normal-500;
+    font-size: 11px;
+    line-height: 16px;
+    color: #666;
+}
+
+.footer-text a {
+    color: #666;
+}
+
+.footer-text a:hover {
+    text-decoration: none;
+}
+
+.list-footer-text {
+    margin-top: -15px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.list-footer-text ul {
+    padding-left: 70px;
+    list-style: none;
+}
+
+.list-footer-text ul li {
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.list-footer-text button {
+    width: 335px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(86, 123, 149);
+    line-height: 11px;
+    color: white;
+    font-weight: 10px;
+    transition: all 0.4s linear;
+    border: solid rgb(50, 104, 145) 1px;
+    border-radius: 3px;
+    font-family: franklin-normal-600;
+    font-size: 0.8125rem;
+    letter-spacing: 0.05em;
+}
+
+.list-footer-text button:hover {
+    background-color: #326891;
 }
