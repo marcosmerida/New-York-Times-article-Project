@@ -242,6 +242,14 @@ body {
   color: #888;
 }
 
+.video-container span {
+  font-size: 13px;
+  font-family: "nyt-imperial, Arial, sans-serif";
+  font-weight: 400;
+  color: #888;
+  line-height: 18px;
+}
+
 .author-text-container p span:hover {
   text-decoration: none;
 }
@@ -385,19 +393,11 @@ body {
   letter-spacing: 0.1mm;
 }
 
-.video-container span {
-  font-size: 13px;
-  font-family: "nyt-imperial";
-  font-weight: 400;
-  color: #888;
-  line-height: 18px;
-}
-
 .sub-one {
-  font-family: imperial-normal-700;
+  font-family: imperial-normal-700, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
-  color: #333333;
+  color: #333;
 }
 
 .img-container-two {
@@ -418,9 +418,9 @@ body {
 }
 
 .img-text-two p {
-  font-family: "nyt-imperial";
+  font-family: "nyt-imperial, Arial, sans-serif";
   font-weight: 400;
-  color: #666666;
+  color: #666;
   font-size: 15px;
   line-height: 20px;
   margin-top: 2px;
