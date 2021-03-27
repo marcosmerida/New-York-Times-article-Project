@@ -237,6 +237,11 @@ body {
   text-decoration: underline #cccccc;
 }
 
+.img-text-two span {
+  font-size: 13px;
+  color: #888;
+}
+
 .author-text-container p span:hover {
   text-decoration: none;
 }
@@ -421,11 +426,6 @@ body {
   margin-top: 2px;
   margin-left: -2%;
   letter-spacing: 0.1mm;
-}
-
-.img-text-two span {
-  font-size: 13px;
-  color: #888888;
 }
 
 .footer-text {
