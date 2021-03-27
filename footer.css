@@ -32,7 +32,7 @@
 }
 
 .txt-1 {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #333;
@@ -40,10 +40,66 @@
 
 .txt-1 a {
   text-decoration: none;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #333;
+}
+
+.external-links a {
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+  font-family: franklin-normal-500, Arial, sans-serif;
+}
+
+.sub-categories a {
+  font-family: franklin-normal-500, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.txt-5 a {
+  margin: 15px auto auto 900px;
+  font-family: franklin-normal-500, Arial, sans-serif;
+  font-size: 11px;
+  color: #567b95;
+  text-decoration: none;
+}
+
+.link3 a {
+  text-decoration: none;
+  font-family: franklin-normal-700, Arial, sans-serif;
+  color: rgb(50, 104, 145);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.link2 a {
+  text-decoration: none;
+  font-family: franklin-normal-700, Arial, sans-serif;
+  color: rgb(50, 104, 145);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+  margin-top: 66px;
+}
+
+.link1 a {
+  text-decoration: none;
+  font-family: franklin-normal-700, Arial, sans-serif;
+  color: rgb(50, 104, 145);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.2px;
+}
+
+.big-p1 a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
 }
 
 .txt-1 a:hover {
@@ -51,7 +107,7 @@
 }
 
 .txt-2 {
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 14px;
   color: #666;
   margin-left: 56%;
@@ -60,14 +116,12 @@
 .first-section {
   width: 100%;
   max-width: 840px;
-  height: fit-content;
 }
 
 .first-section1 {
   margin-top: 30px;
   width: 100%;
   max-width: 840px;
-  height: fit-content;
 }
 
 .first-section div {
@@ -126,7 +180,7 @@
 
 .small-p {
   margin-top: 1px;
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Arial, sans-serif;
   color: rgb(51, 51, 51);
   letter-spacing: 0.09em;
   line-height: 1rem;
@@ -136,7 +190,7 @@
 .small-p1 {
   text-align: right;
   margin-top: -3px;
-  font-family: cheltenham-normal-400;
+  font-family: cheltenham-normal-400, Arial, sans-serif;
   color: rgb(153, 153, 153);
   font-size: 0.625rem;
   line-height: 1.23em;
@@ -144,7 +198,7 @@
 
 .big-p {
   margin-top: -9px;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   color: rgb(18, 18, 18);
   line-height: 1.25rem;
   font-size: 1.125rem;
@@ -157,18 +211,13 @@
   color: rgb(18, 18, 18);
 }
 
-.big-p1 a {
-  text-decoration: none;
-  color: rgb(18, 18, 18);
-}
-
 .big-p1 a:hover {
   color: #666;
 }
 
 .medium-p {
   margin-top: -12px;
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Arial, sans-serif;
   color: rgb(51, 51, 51);
   letter-spacing: 0.2px;
   font-size: 1rem;
@@ -177,7 +226,7 @@
 
 .medium-p1 {
   margin-top: -20px;
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 0.75rem;
   color: rgb(153, 153, 153);
   letter-spacing: 0.05em;
@@ -187,43 +236,12 @@
   margin-top: -10px;
 }
 
-.link1 a {
-  text-decoration: none;
-  font-family: franklin-normal-700;
-  color: rgb(50, 104, 145);
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  text-decoration: none;
-}
-
 .link2 {
-  margin-top: 66px;
-}
-
-.link2 a {
-  text-decoration: none;
-  font-family: franklin-normal-700;
-  color: rgb(50, 104, 145);
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  text-decoration: none;
   margin-top: 66px;
 }
 
 .link3 {
   margin-top: 46px;
-}
-
-.link3 a {
-  text-decoration: none;
-  font-family: franklin-normal-700;
-  color: rgb(50, 104, 145);
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-  letter-spacing: 0.2px;
-  text-decoration: none;
 }
 
 .link1 a:hover {
@@ -239,14 +257,14 @@
 }
 
 .title-second-section p {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #333;
 }
 
 .category {
-  border-top: double #cccccc;
+  border-top: double #ccc;
   margin: 80px auto auto auto;
   width: 100%;
   max-width: 1200px;
@@ -264,38 +282,21 @@
 
 .txt-4 {
   margin-top: 15px;
-  font-family: OldeEnglish;
+  font-family: OldeEnglish, Arial, sans-serif;
   font-size: 29px;
   line-height: 16px;
 }
 
-.txt-5 a {
-  margin: 15px auto auto 900px;
-  font-family: franklin-normal-500;
-  font-size: 11px;
-  color: #567b95;
-  text-decoration: none;
-}
-
 .categories {
-  margin-top: 0px;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
 }
 
 .sub-categories {
   margin-top: -35px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
-}
-
-.sub-categories a {
-  font-family: franklin-normal-500;
-  font-size: 14px;
-  line-height: 16px;
-  text-decoration: none;
-  color: black;
 }
 
 .sub-categories a:hover {
@@ -303,16 +304,9 @@
 }
 
 .sub-categories a > .h2 {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 15px;
-}
-
-.external-links a {
-  text-decoration: none;
-  color: #666;
-  font-size: 11px;
-  font-family: franklin-normal-500;
 }
 
 .external-links a:hover {

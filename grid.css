@@ -9,6 +9,15 @@
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 50% 50%;
   grid-gap: 10px;
+  width: 100%;
+  max-width: 880px;
+  margin: auto;
+  text-align: left;
+  height: 648px;
+  font-size: 13px;
+  line-height: 17px;
+  font-family: franklin-normal-300, Arial, sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .grid-text-container {
@@ -20,28 +29,16 @@
 
 .grid-text-container h1 {
   font-size: 20px;
-  font-family: cheltenham-normal-700;
+  font-family: cheltenham-normal-700, Arial, sans-serif;
   letter-spacing: 0.1mm;
 }
 
 .grid-text-container p {
   margin-top: -13px;
-  font-family: cheltenham-normal-400;
+  font-family: cheltenham-normal-400, Arial, sans-serif;
   font-size: 15px;
   color: #666;
   line-height: 1.125rem;
-}
-
-.grid-main-container {
-  width: 100%;
-  max-width: 880px;
-  margin: auto;
-  text-align: left;
-  height: 648px;
-  font-size: 13px;
-  line-height: 17px;
-  font-family: franklin-normal-300;
-  letter-spacing: 0.05em;
 }
 
 .grid-main-container div {
@@ -49,7 +46,7 @@
 }
 
 .grid-main-container span {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
 }
 
 .grid-footer {
@@ -59,7 +56,7 @@
 }
 
 .grid-footer p {
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 0.875rem;
 }
 
