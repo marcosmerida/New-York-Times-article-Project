@@ -95,6 +95,11 @@ body {
   margin-top: 12px;
 }
 
+.list-footer-text ul li {
+  cursor: pointer;
+  display: inline-flex;
+}
+
 .navbar ul li {
   display: inline-block;
   padding-left: 18px;
@@ -273,6 +278,22 @@ body {
   transition: all 0.4s;
 }
 
+.list-footer-text button {
+  width: 335px;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(86, 123, 149);
+  line-height: 11px;
+  color: white;
+  transition: all 0.4s linear;
+  border: solid rgb(50, 104, 145) 1px;
+  border-radius: 3px;
+  font-family: franklin-normal-600;
+  font-size: 0.8125rem;
+  letter-spacing: 0.05em;
+}
+
 .signup-container button:hover {
   color: white;
   background: black;
@@ -432,28 +453,6 @@ body {
 .list-footer-text ul {
   padding-left: 70px;
   list-style: none;
-}
-
-.list-footer-text ul li {
-  cursor: pointer;
-  display: inline-flex;
-}
-
-.list-footer-text button {
-  width: 335px;
-  height: 35px;
-  cursor: pointer;
-  outline: none;
-  background-color: rgb(86, 123, 149);
-  line-height: 11px;
-  color: white;
-  font-weight: 10px;
-  transition: all 0.4s linear;
-  border: solid rgb(50, 104, 145) 1px;
-  border-radius: 3px;
-  font-family: franklin-normal-600;
-  font-size: 0.8125rem;
-  letter-spacing: 0.05em;
 }
 
 .list-footer-text button:hover {
