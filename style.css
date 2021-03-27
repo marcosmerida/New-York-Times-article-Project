@@ -1,10 +1,10 @@
 @font-face {
   font-family: "nyt-imperial";
-  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2")
+  src:
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2")
     format("woff2");
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
 }
 
 @font-face {
@@ -73,7 +73,7 @@ body {
 }
 
 .title-container h1 {
-  font-family: OldeEnglish;
+  font-family: OldeEnglish, Arial, sans-serif;
   margin-bottom: 20px;
   font-size: 29px;
   line-height: 16px;
@@ -95,6 +95,10 @@ body {
   margin-top: 12px;
 }
 
+.main-list li {
+  display: inline;
+}
+
 .list-footer-text ul li {
   cursor: pointer;
   display: inline-flex;
@@ -104,7 +108,7 @@ body {
   display: inline-block;
   padding-left: 18px;
   margin-bottom: 15px;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 0.07em;
   cursor: pointer;
@@ -126,11 +130,10 @@ body {
   background-color: rgb(86, 123, 149);
   line-height: 11px;
   color: white;
-  font-weight: 10px;
   transition: all 0.4s linear;
   border: solid rgb(50, 104, 145) 1px;
   border-radius: 3px;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 11px;
   margin-bottom: 4px;
 }
@@ -156,7 +159,7 @@ body {
 }
 
 .main-title {
-  font-family: cheltenham-italic-700;
+  font-family: cheltenham-italic-700, Arial, sans-serif;
   font-size: 20px;
   line-height: 48px;
   width: 40%;
@@ -167,17 +170,11 @@ body {
 }
 
 .main-list {
-  height: fit-content;
   margin: auto 27%;
-  width: fit-content;
 }
 
 .main-list ul {
   list-style: none;
-}
-
-.main-list li {
-  display: inline;
 }
 
 .img-container {
@@ -199,19 +196,18 @@ body {
 }
 
 .img-text-container p {
-  margin: 0px 0px 0px -5%;
-  font-family: imperial-italic-500;
+  margin-left: -5%;
+  font-family: imperial-italic-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 0.9375rem;
   line-height: 1.25rem;
-  color: #666666;
-  width: fit-content;
+  color: #666;
   max-width: 77%;
 }
 
 .img-text-container span {
-  font-family: imperial-italic-500;
+  font-family: imperial-italic-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .main-text-container {
@@ -221,20 +217,27 @@ body {
 }
 
 .subtitle-container {
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #ccc;
   height: 102px;
 }
 
 .author-text-container {
-  font-family: franklin-normal-700;
-  color: #333333;
+  font-family: franklin-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #333;
   font-size: 15px;
 }
 
-.author-text-container p span {
-  line-height: 16px;
-  cursor: pointer;
-  text-decoration: underline #cccccc;
+.signup-container span {
+  font-family: imperial-italic-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 17px;
+}
+
+.video-container span {
+  font-size: 13px;
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  color: #888;
+  line-height: 18px;
 }
 
 .img-text-two span {
@@ -242,12 +245,10 @@ body {
   color: #888;
 }
 
-.video-container span {
-  font-size: 13px;
-  font-family: "nyt-imperial, Arial, sans-serif";
-  font-weight: 400;
-  color: #888;
-  line-height: 18px;
+.author-text-container p span {
+  line-height: 16px;
+  cursor: pointer;
+  text-decoration: underline #ccc;
 }
 
 .author-text-container p span:hover {
@@ -256,9 +257,9 @@ body {
 
 .date-text-container {
   margin-top: -0.8em;
-  font-family: franklin-normal-500;
+  font-family: franklin-normal-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 13px;
-  color: #333333;
+  color: #333;
 }
 
 .signup-container {
@@ -268,20 +269,15 @@ body {
 }
 
 .signup-container p {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 14px;
-  color: #333333;
+  color: #333;
   width: 515px;
-}
-
-.signup-container span {
-  font-family: imperial-italic-500;
-  font-size: 17px;
 }
 
 .signup-container button {
   margin-top: 3%;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 15px;
   width: 80px;
   height: 35px;
@@ -302,7 +298,7 @@ body {
   transition: all 0.4s linear;
   border: solid rgb(50, 104, 145) 1px;
   border-radius: 3px;
-  font-family: franklin-normal-600;
+  font-family: franklin-normal-600, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 0.8125rem;
   letter-spacing: 0.05em;
 }
@@ -313,10 +309,10 @@ body {
 }
 
 .text-par {
-  color: #333333;
+  color: #333;
   font-size: 20px;
   line-height: 30px;
-  font-family: "nyt-imperial";
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   letter-spacing: 0.1mm;
 }
@@ -324,7 +320,7 @@ body {
 .greet-text-container {
   margin: 45px auto 45px auto;
   text-align: center;
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 15px;
   line-height: 19px;
   color: #333;
@@ -337,20 +333,20 @@ body {
 
 .black {
   padding-top: 20px;
-  border-top: solid 1px #cccccc;
+  border-top: solid 1px #ccc;
 }
 
 .blue {
   padding-bottom: 20px;
-  border-bottom: solid 1px #cccccc;
+  border-bottom: solid 1px #ccc;
 }
 
 .text-par-two p {
-  font-family: "nyt-imperial";
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  color: #333333;
+  color: #333;
   letter-spacing: 0.1mm;
 }
 
@@ -359,17 +355,17 @@ body {
 }
 
 .subtitle {
-  font-family: imperial-normal-700;
-  color: #333333;
+  font-family: imperial-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  color: #333;
   font-size: 20px;
 }
 
 .text-par-three {
-  font-family: "nyt-imperial";
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  color: #333333;
+  color: #333;
   letter-spacing: 0.1mm;
 }
 
@@ -383,12 +379,11 @@ body {
 }
 
 .video-container p {
-  margin-top: 0px;
   max-width: 500px;
   font-size: 15px;
-  font-family: "nyt-imperial";
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
-  color: #666666;
+  color: #666;
   line-height: 20px;
   letter-spacing: 0.1mm;
 }
@@ -418,7 +413,7 @@ body {
 }
 
 .img-text-two p {
-  font-family: "nyt-imperial, serif, Apple Color Emoji";
+  font-family: "nyt-imperial", serif, Apple Color Emoji;
   font-weight: 400;
   color: #666;
   font-size: 15px;
