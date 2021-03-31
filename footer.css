@@ -140,6 +140,7 @@
   height: 260px;
   border: 1px solid rgb(226, 226, 226);
   transition: all 0.4s;
+  cursor: pointer;
 }
 
 .section1 {
@@ -150,13 +151,18 @@
   height: 260px;
 }
 
+.img-section div {
+  display: inline-flex;
+}
+
 .section:hover {
   box-shadow: 3px 5px #e3e3e3;
   cursor: pointer;
 }
 
-.img-section div {
-  display: inline-flex;
+.section:hover .plus-button {
+  background-color: black;
+  color: white;
 }
 
 .plus-button {
@@ -171,11 +177,6 @@
   border: 1px black solid;
   outline: none;
   transition: all 0.4s;
-}
-
-.plus-button:hover {
-  background-color: black;
-  color: white;
 }
 
 .small-p {

@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: cheltenham-small-normal-700;
+  src: url(fonts/cheltenham-small-normal-700.ttf);
+}
+
+@font-face {
   font-family: franklin-normal-700;
   src: url(fonts/franklin-normal-700.ttf);
 }
@@ -352,6 +357,48 @@ body {
 
 .text-par-two a {
   color: #326891;
+}
+
+aside {
+  position: relative;
+  margin: auto;
+  float: right;
+  max-width: 22%;
+  margin-top: -540%;
+  top: 100px;
+}
+
+.aside-title {
+  font-family: franklin-normal-700;
+  font-size: 14px;
+  margin: auto;
+  height:30px;
+}
+
+.aside-articles div {
+  max-width: 70%;
+  margin-top: 5px;
+  display: inline-flex;
+}
+
+.aside-p a {
+  text-decoration: none;
+  margin: auto auto auto 10px;
+  font-family: cheltenham-small-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666;
+  
+}
+
+.aside-article1 {
+  border-top: 1px solid #ebebeb;
+  padding-top: 10px;
+}
+
+.aside-article:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .subtitle {
