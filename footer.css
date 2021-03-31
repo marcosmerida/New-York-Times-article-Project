@@ -160,11 +160,6 @@
   cursor: pointer;
 }
 
-.section:hover .plus-button {
-  background-color: black;
-  color: white;
-}
-
 .plus-button {
   cursor: pointer;
   margin-left: 120px;
@@ -177,6 +172,11 @@
   border: 1px black solid;
   outline: none;
   transition: all 0.4s;
+}
+
+.section:hover .plus-button {
+  background-color: black;
+  color: white;
 }
 
 .small-p {

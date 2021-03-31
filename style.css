@@ -369,10 +369,10 @@ aside {
 }
 
 .aside-title {
-  font-family: franklin-normal-700;
+  font-family: franklin-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-size: 14px;
   margin: auto;
-  height:30px;
+  height: 30px;
 }
 
 .aside-articles div {
@@ -388,7 +388,6 @@ aside {
   font-size: 14px;
   line-height: 17px;
   color: #666;
-  
 }
 
 .aside-article1 {
