@@ -15,6 +15,16 @@ Contains a non responsive interface but very similar to the original one.
 
 [Live Demo Link](https://marcosmerida.github.io/New-York-Times-article-Project/)
 
+## Instalation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/marcosmerida/New-York-Times-article-Project.git
+   ```
+2. Make sure that the images inside the /images file are linked in the index.html
+
+3. Link the files style.css, grid.css and footer.css into the HTML file.
+
 ## Authors
 
 👤 **Juan Marcos Mérida**
