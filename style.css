@@ -10,6 +10,46 @@ body {
   height: auto;
 }
 
+.main-list li {
+  display: inline;
+}
+
+.img-text-container span {
+  font-size: 13px;
+  color: #888;
+}
+
+.signup-container span {
+  font-size: 17px;
+}
+
+.video-container span {
+  font-size: 13px;
+  font-weight: 400;
+  color: #888;
+  line-height: 18px;
+}
+
+.video-container span,
+.text-par,
+.text-par-two p,
+.text-par-three,
+.video-container p,
+.img-text-two p {
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
+.img-text-two span {
+  font-size: 13px;
+  color: #888;
+}
+
+.img-text-container span,
+.img-text-container p,
+.signup-container span {
+  font-family: imperial-italic-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+}
+
 .img-container img,
 .list-footer-text ul li,
 .navbar ul li,
@@ -43,10 +83,6 @@ body {
   padding: 0;
   list-style: none;
   margin-top: 12px;
-}
-
-.main-list li {
-  display: inline;
 }
 
 .list-footer-text ul li {
@@ -155,17 +191,6 @@ body {
   max-width: 77%;
 }
 
-.img-text-container span {
-  font-size: 13px;
-  color: #888;
-}
-
-.img-text-container span,
-.img-text-container p,
-.signup-container span {
-  font-family: imperial-italic-500, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-}
-
 .main-text-container {
   margin: 2.5% auto auto auto;
   width: 60%;
@@ -180,31 +205,6 @@ body {
 .author-text-container {
   color: #333;
   font-size: 15px;
-}
-
-.signup-container span {
-  font-size: 17px;
-}
-
-.video-container span {
-  font-size: 13px;
-  font-weight: 400;
-  color: #888;
-  line-height: 18px;
-}
-
-.video-container span,
-.text-par,
-.text-par-two p,
-.text-par-three,
-.video-container p,
-.img-text-two p {
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
-}
-
-.img-text-two span {
-  font-size: 13px;
-  color: #888;
 }
 
 .author-text-container p span {
