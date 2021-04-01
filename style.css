@@ -341,7 +341,6 @@ aside {
 }
 
 .subtitle {
-  font-family: imperial-normal-700, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   color: #333;
   font-size: 20px;
 }
@@ -375,10 +374,14 @@ aside {
 }
 
 .sub-one {
-  font-family: imperial-normal-700, Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
   color: #333;
+}
+
+.sub-one,
+.subtitle {
+  font-family: imperial-normal-700, Arial, sans-serif;
 }
 
 .img-container-two {
