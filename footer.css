@@ -102,6 +102,14 @@
   color: rgb(18, 18, 18);
 }
 
+.most-popular-links div a {
+  color: rgb(18, 18, 18);
+  font-family: cheltenham-normal-500, Arial, sans-serif;
+  font-size: 1.125rem;
+  text-decoration: none;
+  line-height: 1.375rem;
+}
+
 .txt-1 a:hover {
   text-decoration: underline;
 }
@@ -315,7 +323,7 @@
 }
 
 .most-popular {
-  position:absolute;
+  position: absolute;
   float: right;
   margin-left: 40px;
 }
@@ -326,14 +334,6 @@
   grid-template-rows: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
   text-align: left;
   border-top: 1px solid rgb(226, 226, 226);
-}
-
-.most-popular-links div a {
-  color: rgb(18, 18, 18);
-  font-family: cheltenham-normal-500, Arial, sans-serif;
-  font-size: 1.125rem;
-  text-decoration: none;
-  line-height: 1.375rem;
 }
 
 .most-popular-links div a:hover {
@@ -351,4 +351,3 @@
   line-height: 22px;
   color: #333;
 }
-

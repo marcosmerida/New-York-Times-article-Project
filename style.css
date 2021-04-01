@@ -77,6 +77,18 @@ body {
   line-height: 1.6em;
 }
 
+.img-container img {
+  margin: auto auto;
+  max-width: 77%;
+  height: auto;
+  cursor: pointer;
+}
+
+.img-container-two img {
+  width: 100%;
+  max-width: 725px;
+}
+
 .title-container a img {
   margin-top: 9px;
 }
@@ -181,13 +193,6 @@ body {
 .img-container {
   max-width: 100%;
   text-align: center;
-}
-
-.img-container img {
-  margin: auto auto;
-  max-width: 77%;
-  height: auto;
-  cursor: pointer;
 }
 
 .img-text-container {
@@ -440,11 +445,6 @@ aside {
 .img-container-two {
   margin-top: 40px;
   text-align: center;
-}
-
-.img-container-two img {
-  width: 100%;
-  max-width: 725px;
 }
 
 .img-text-two {
