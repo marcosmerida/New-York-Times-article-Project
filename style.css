@@ -77,12 +77,8 @@ body {
   line-height: 1.6em;
 }
 
-.title-container h1 {
-  font-family: OldeEnglish, Arial, sans-serif;
-  margin-bottom: 20px;
-  font-size: 29px;
-  line-height: 16px;
-  cursor: pointer;
+.title-container a img {
+  margin-top: 9px;
 }
 
 .title-container {
