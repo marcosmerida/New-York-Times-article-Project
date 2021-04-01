@@ -31,19 +31,23 @@
   border-top: 1px black solid;
 }
 
-.txt-1 {
-  font-family: franklin-normal-700, Arial, sans-serif;
+.txt-1 a {
+  text-decoration: none;
   font-size: 16px;
   line-height: 22px;
   color: #333;
 }
 
-.txt-1 a {
-  text-decoration: none;
+.txt-1 a,
+.link3 a,
+.link2 a,
+.link1 a,
+.big-p,
+.title-second-section p,
+.categories,
+.sub-categories a > .h2,
+.most-popular-title {
   font-family: franklin-normal-700, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  color: #333;
 }
 
 .external-links a {
@@ -78,7 +82,6 @@
 
 .link3 a {
   text-decoration: none;
-  font-family: franklin-normal-700, Arial, sans-serif;
   color: rgb(50, 104, 145);
   font-size: 0.875rem;
   line-height: 1.125rem;
@@ -87,7 +90,6 @@
 
 .link2 a {
   text-decoration: none;
-  font-family: franklin-normal-700, Arial, sans-serif;
   color: rgb(50, 104, 145);
   font-size: 0.875rem;
   line-height: 1.125rem;
@@ -97,7 +99,6 @@
 
 .link1 a {
   text-decoration: none;
-  font-family: franklin-normal-700, Arial, sans-serif;
   color: rgb(50, 104, 145);
   font-size: 0.875rem;
   line-height: 1.125rem;
@@ -212,7 +213,6 @@
 
 .big-p {
   margin-top: -9px;
-  font-family: franklin-normal-700, Arial, sans-serif;
   color: rgb(18, 18, 18);
   line-height: 1.25rem;
   font-size: 1.125rem;
@@ -269,7 +269,6 @@
 }
 
 .title-second-section p {
-  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #333;
@@ -300,7 +299,6 @@
 }
 
 .categories {
-  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 13px;
   line-height: 15px;
 }
@@ -316,7 +314,6 @@
 }
 
 .sub-categories a > .h2 {
-  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 15px;
 }
@@ -349,7 +346,6 @@
   margin-top: -56px;
   border-top: 1px solid black;
   width: 320px;
-  font-family: franklin-normal-700, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #333;
