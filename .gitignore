@@ -1,5 +1,5 @@
 test.md
 node_modules/
 package-lock.json
-.hintrc
-.stylelintrc.json
+hintrc
+stylelintrc.json
