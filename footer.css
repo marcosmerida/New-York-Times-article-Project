@@ -50,11 +50,19 @@
   text-decoration: none;
   color: #666;
   font-size: 11px;
+}
+
+.external-links a,
+.sub-categories a,
+.txt-5 a,
+.txt-2,
+.small-p,
+.medium-p,
+.medium-p1 {
   font-family: franklin-normal-500, Arial, sans-serif;
 }
 
 .sub-categories a {
-  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
   text-decoration: none;
@@ -63,7 +71,6 @@
 
 .txt-5 a {
   margin: 15px auto auto 900px;
-  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 11px;
   color: #567b95;
   text-decoration: none;
@@ -115,7 +122,6 @@
 }
 
 .txt-2 {
-  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 14px;
   color: #666;
   margin-left: 56%;
@@ -189,7 +195,6 @@
 
 .small-p {
   margin-top: 1px;
-  font-family: franklin-normal-500, Arial, sans-serif;
   color: rgb(51, 51, 51);
   letter-spacing: 0.09em;
   line-height: 1rem;
@@ -226,7 +231,6 @@
 
 .medium-p {
   margin-top: -12px;
-  font-family: franklin-normal-500, Arial, sans-serif;
   color: rgb(51, 51, 51);
   letter-spacing: 0.2px;
   font-size: 1rem;
@@ -235,7 +239,6 @@
 
 .medium-p1 {
   margin-top: -20px;
-  font-family: franklin-normal-500, Arial, sans-serif;
   font-size: 0.75rem;
   color: rgb(153, 153, 153);
   letter-spacing: 0.05em;
