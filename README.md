@@ -1,6 +1,6 @@
 # New York Times Article Project
 
-> This project is created with the objective of trying to copy an article from The New York Times
+> This project is created with the objective of trying to copy an article from The New York Times <br>
 > Grid CSS and flexbox were used to place the elements in the HTML of the project
 
 ![screenshot](./screenshot.png)
