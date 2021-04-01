@@ -8,6 +8,15 @@ body {
   margin: auto auto;
   max-width: 77%;
   height: auto;
+}
+
+.img-container img,
+.list-footer-text ul li,
+.navbar ul li,
+.button,
+.author-text-container p span,
+.list-footer-text button,
+.aside-article:hover {
   cursor: pointer;
 }
 
