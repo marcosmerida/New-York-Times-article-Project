@@ -179,10 +179,18 @@ body {
 
 .video-container span {
   font-size: 13px;
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   color: #888;
   line-height: 18px;
+}
+
+.video-container span,
+.text-par,
+.text-par-two p,
+.text-par-three,
+.video-container p,
+.img-text-two p {
+  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .img-text-two span {
@@ -259,7 +267,6 @@ body {
   color: #333;
   font-size: 20px;
   line-height: 30px;
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   letter-spacing: 0.1mm;
 }
@@ -288,7 +295,6 @@ body {
 }
 
 .text-par-two p {
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -346,7 +352,6 @@ aside {
 }
 
 .text-par-three {
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
@@ -366,7 +371,6 @@ aside {
 .video-container p {
   max-width: 500px;
   font-size: 15px;
-  font-family: "nyt-imperial", Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 400;
   color: #666;
   line-height: 20px;
@@ -397,7 +401,6 @@ aside {
 }
 
 .img-text-two p {
-  font-family: "nyt-imperial", serif, Apple Color Emoji;
   font-weight: 400;
   color: #666;
   font-size: 15px;
