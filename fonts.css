@@ -1,0 +1,87 @@
+/* imperial 400 */
+@font-face {
+  font-family: "nyt-imperial";
+  src:
+    url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2")
+    format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* imperial 700 */
+@font-face {
+  font-family: imperial-normal-700;
+  src: url(fonts/imperial-normal-700.ttf);
+}
+
+/* imperial italic 500 */
+@font-face {
+  font-family: imperial-italic-500;
+  src: url(fonts/imperial-italic-500.ttf);
+}
+
+/* OldeEnglish */
+@font-face {
+  font-family: OldeEnglish;
+  src: url(fonts/OldeEnglish.ttf);
+}
+
+/* cheltenham 400 */
+@font-face {
+  font-family: cheltenham-normal-400;
+  src: url(fonts/cheltenham-normal-400.ttf);
+}
+
+/* cheltenham 500 */
+@font-face {
+  font-family: cheltenham-normal-500;
+  src: url(fonts/cheltenham-normal-500.ttf);
+}
+
+/* cheltenham small 700 */
+@font-face {
+  font-family: cheltenham-small-normal-700;
+  src: url(fonts/cheltenham-small-normal-700.ttf);
+}
+
+/* cheltenham italic 700 */
+@font-face {
+  font-family: cheltenham-italic-700;
+  src: url(fonts/cheltenham-italic-700.ttf);
+}
+
+/* cheltenham 700 */
+@font-face {
+  font-family: cheltenham-normal-700;
+  src: url(fonts/cheltenham-normal-700.ttf);
+}
+
+/* franklin 700 */
+@font-face {
+  font-family: franklin-normal-700;
+  src: url(fonts/franklin-normal-700.ttf);
+}
+
+/* franklin 500 */
+@font-face {
+  font-family: franklin-normal-500;
+  src: url(fonts/franklin-normal-500.ttf);
+}
+
+/* franklin 300 */
+@font-face {
+  font-family: franklin-normal-300;
+  src: url(fonts/franklin-normal-300.ttf);
+}
+
+/* franklin 600 */
+@font-face {
+  font-family: franklin-normal-600;
+  src: url(fonts/franklin-normal-600.ttf);
+}
+
+/* Century Old Style Regular */
+@font-face {
+  font-family: CenturyOldStyleStdRegular;
+  src: url(fonts/CenturyOldStyleStdRegular.otf);
+}
